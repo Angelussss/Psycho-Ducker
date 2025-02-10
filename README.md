@@ -1,2 +1,2 @@
 # Psycho-Ducker
-a 75% exploded keyboard layout
+a 75% exploded layout keyboard
