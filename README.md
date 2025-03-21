@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Psycho Ducker
+# Psycho Ducker
 
 Welcome to the Psycho Ducker, a 75% exploded keyboard project! This is a hot-swappable, compact, and efficient keyboard. Below, you'll find all the details you need to build and understand this project.
 
@@ -59,9 +58,9 @@ To assemble this keyboard, you'll need medium tin soldering skills, particularly
 
 ## Photos
 
--   **Finished Build:** ![Insert finished keyboard photo]
+-   **Finished Build:** ![fnished keyboard photo]
     
--   **Render:** ![Insert PCB render photo]
+-   **Render:** ![pcb render] (https://github.com/Angelussss/Psycho-Ducker/blob/main/images/pcb_render.png)
     
 
 ## Contact
@@ -69,8 +68,4 @@ To assemble this keyboard, you'll need medium tin soldering skills, particularly
 For any questions, feedback, or assistance, feel free to reach out via Telegram: @AngelusPSPS.
 
 Thank you for exploring this project! Happy building and typing!
-
-=======
-# Psycho-Ducker
-a 75% exploded layout keyboard
->>>>>>> ab3209559e46732e5dbeb3a4390f774434827858
+
