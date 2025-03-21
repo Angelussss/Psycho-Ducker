@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Psycho Ducker
 
 Welcome to the Psycho Ducker, a 75% exploded keyboard project! This is a hot-swappable, compact, and efficient keyboard. Below, you'll find all the details you need to build and understand this project.
@@ -69,3 +70,7 @@ For any questions, feedback, or assistance, feel free to reach out via Telegram:
 
 Thank you for exploring this project! Happy building and typing!
 
+=======
+# Psycho-Ducker
+a 75% exploded layout keyboard
+>>>>>>> ab3209559e46732e5dbeb3a4390f774434827858
