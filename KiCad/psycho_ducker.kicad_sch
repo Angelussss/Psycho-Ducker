@@ -7744,18 +7744,6 @@
 		(uuid 5beb3caf-24cf-4e1f-bcfa-99959068016b)
 	)
 	(rectangle
-		(start 25.4 25.4)
-		(end 114.3 101.6)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 72a67598-1175-4c8f-9f47-0f0d0fe80dcd)
-	)
-	(rectangle
 		(start 124.46 215.9)
 		(end 259.08 281.94)
 		(stroke
@@ -7902,18 +7890,6 @@
 		)
 		(uuid f95cedc7-5e1b-4b8c-899f-716a7202b54d)
 	)
-	(rectangle
-		(start 105.41 93.98)
-		(end 105.41 93.98)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid fb6cfc71-7768-40f5-b457-3714d8a50cdb)
-	)
 	(text_box "Hold when plugging in to enter bootloader mode."
 		(exclude_from_sim no)
 		(at 88.646 227.076 0)
@@ -8053,16 +8029,6 @@
 			)
 		)
 		(uuid "d9b46a0d-fd23-4fd7-a643-ec0a27c955c8")
-	)
-	(text "LEDs\n"
-		(exclude_from_sim no)
-		(at 27.432 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ea178586-af6c-4e5b-9223-f0d12663d2d8")
 	)
 	(text "Matrix"
 		(exclude_from_sim no)
@@ -19390,7 +19356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
+		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
 			(at 27.94 175.26 0)
 			(effects
 				(font
@@ -20943,71 +20909,6 @@
 			(project "psycho_ducker"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "S37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 38.1 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc6359ce-909a-465d-b1b8-af032b3ce157")
-		(property "Reference" "#PWR01"
-			(at 38.1 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 37.846 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 38.1 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff9a9e02-3dbe-4b19-b801-8845c24e6ecc")
-		)
-		(instances
-			(project "psycho_ducker"
-				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -25219,71 +25120,6 @@
 			(project "psycho_ducker"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
 					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f923e77d-89ea-4d7f-82fb-a2231d006c68")
-		(property "Reference" "#PWR03"
-			(at 38.1 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 37.846 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db6808f4-6f45-461f-9fc0-7aceba05cdaa")
-		)
-		(instances
-			(project "psycho_ducker"
-				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
