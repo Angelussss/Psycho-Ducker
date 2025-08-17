@@ -11617,6 +11617,19 @@
 		(layer "Edge.Cuts")
 		(uuid "ffaa37c8-77ef-4aaf-957f-ebb33235ec6c")
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 59 205 0)
+		(layer "F.SilkS")
+		(uuid "19bc18a1-3051-4084-b7ef-712be4375b9a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "PSYCHO DUCKER BOTTOM PLATE V1.0\n"
 		(at 365 203 90)
 		(layer "F.SilkS")
